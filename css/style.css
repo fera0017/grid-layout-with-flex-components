@@ -58,3 +58,12 @@ body {
   margin-bottom: 8px;
 }
 
+/* Add comfortable spacing around the description */
+.emoji p {
+  margin: 14px 0 16px;
+}
+
+/* Push each button to the bottom of its card */
+.emoji a {
+  margin-top: auto;
+}
