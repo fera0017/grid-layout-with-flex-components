@@ -38,3 +38,23 @@ body {
   gap: 16px;
 }
 
+/* style the card like it in the assignment*/
+.emoji {
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 1rem;
+  box-sizing: border-box;
+  /* flexbox to make the card content goes vertically */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Move the emoji above the heading without changing the HTML */
+.emoji .icon {
+  order: -1;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
