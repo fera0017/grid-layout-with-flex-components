@@ -1,3 +1,6 @@
+
+ /* add the base css exist in readme file */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #222;
@@ -25,3 +28,13 @@ body {
 .icon {
   font-size: 4rem;
 }
+
+ /*  use grid to put the cards in two columns instead of rows */
+.emojis {
+  display: grid;
+  /* make the collumns with the same size */
+  grid-template-columns: repeat(2, 1fr);
+  /* add space between card */
+  gap: 16px;
+}
+
