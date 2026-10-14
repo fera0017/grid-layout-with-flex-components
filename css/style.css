@@ -64,6 +64,7 @@ body {
 }
 
 /* Push each button to the bottom of its card */
+/* this help to make the buttons look in the same level since descrption size is diffrent from card to another */
 .emoji a {
   margin-top: auto;
 }
